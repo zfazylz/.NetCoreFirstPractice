@@ -18,8 +18,6 @@ namespace WebApplication
         {
             services.AddMvc();
             services.AddMvc(option => option.EnableEndpointRouting = false);
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -30,17 +28,6 @@ namespace WebApplication
                 app.UseDeveloperExceptionPage();
             }
 
-            // app.UseRouting();
-            //
-            // app.UseEndpoints(endpoints =>
-            // {
-            //     endpoints.MapGet("/", async context =>
-            //     {
-            //         await context.Response.WriteAsync("Hello World!");
-            //     });
-            // });
-            // app.Run(async (context) => { await context.Response.WriteAsync("Hello World!"); });
-
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -48,7 +35,6 @@ namespace WebApplication
                     template: "{controller=Hello}/{action=Index}/{id?}");
             });
             app.UseStaticFiles();
-
         }
     }
 }

@@ -31,3 +31,5 @@
 /home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Hello/Index.cshtml.g.cs
 /home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
 /home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Messages/ShowMessage.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Calculator/Result.cshtml.g.cs
