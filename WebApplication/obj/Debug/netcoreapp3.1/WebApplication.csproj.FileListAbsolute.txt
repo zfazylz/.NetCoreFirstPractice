@@ -33,3 +33,8 @@
 /home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
 /home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Messages/ShowMessage.cshtml.g.cs
 /home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Calculator/Result.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Add.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Index.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Search.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/zfazylz/RiderProjects/WebApplication/WebApplication/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs

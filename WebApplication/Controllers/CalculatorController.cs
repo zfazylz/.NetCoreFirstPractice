@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace iitu.web.example.Controllers
 {
+   
     [Route("[controller]/[action]")]
     public class CalculatorController : Controller
     {
+        
         [Route("{firstNumber:int}/{secondNumber:int}")]
         public IActionResult Sum(int firstNumber, int secondNumber)
         {
@@ -32,5 +34,7 @@ namespace iitu.web.example.Controllers
 
             return View("Result");
         }
+
+
     }
 }

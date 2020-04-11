@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace iitu.web.example.Controllers
 {
     public class HelloController : Controller
-    {
+    {        
         public IActionResult Index()
         {
             return View();

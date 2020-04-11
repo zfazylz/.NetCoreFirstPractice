@@ -4,19 +4,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-public class MessagesController : Controller
+namespace iitu.web.example.Controllers
 {
-    public IActionResult ShowMessage(string message)
+    [Route("Say")]
+    public class MessagesController : Controller
     {
-        if (string.IsNullOrEmpty(message))
+        [Route("{**message}")]
+        public IActionResult ShowMessage(string message)
         {
-            ViewData["Message"] = "Message is empty";
+            if (string.IsNullOrEmpty(message))
+            {
+                ViewData["Message"] = "Message is empty";
+            }
+            else
+            {
+                ViewData["Message"] = message;
+            }
+            
+            return View();
         }
-        else
-        {
-            ViewData["Message"] = message;
-        }
-
-        return View();
     }
 }
